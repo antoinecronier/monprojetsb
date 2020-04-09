@@ -10,14 +10,14 @@
     <a href="create">Create new</a>
     <table class="table table-bordered table-hover">
         <tr>
-            <th>Name</th>
-            <th>Price</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
         </tr>
 
         <#list items as item>
             <tr>
-                <td>${item.name}</td>
-                <td>${item.price}</td>
+                <td>${item.firstname}</td>
+                <td>${item.lastname}</td>
                 <td><a href="./${item.id}/details">Détails</a></td>
                 <td>
                     <form action="delete" method="POST">

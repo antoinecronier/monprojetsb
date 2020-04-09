@@ -10,7 +10,7 @@
     <input type="text" name="name" value="">
     <br>
     Price:<br>
-    <input type="text" name="price" value="">
+    <input type="numeric" name="price" value="">
     <br><br>
 
     <input type="submit" value="Submit">

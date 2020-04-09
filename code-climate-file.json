@@ -1,0 +1,1554 @@
+[
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "40709e1817706e7900969e323697a2ed89630cdb3b37940399744743b7f0c6e1",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "43fc4c37c3fd351b4651fdfab1c874307cc759a38d85f83e6266b90cb1f950af",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 23
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "d42a487775b578f989b19d61190d16a75ee69e1caeee0cb60574aa911dadb54d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplication.java",
+      "lines": {
+        "begin": 9
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier contient des caractères de tabulation (ce n\u0027est que la première occurence).",
+    "fingerprint": "8a5548b017e74e8c094766772148e40e7537e64b4c32cb0586dad0fc90a9986b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplication.java",
+      "lines": {
+        "begin": 9
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre args devrait être final.",
+    "fingerprint": "810df7600ad5524aa193ddc01af9e3cef03fd3199aca69ea6f731574d5468c08",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplication.java",
+      "lines": {
+        "begin": 9
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Les classes utilitaires ne doivent pas avoir de constructeur par défaut ou public.",
+    "fingerprint": "ed81265be78b3fe281d7afb8fcb894f3af767824851c996bf1ee60b179b5fcfd",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplication.java",
+      "lines": {
+        "begin": 6
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "b940e456de6923def7689035296e9fdff8568f848e8c392c6aa6282e2e15ac91",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplication.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027,\u0027.",
+    "fingerprint": "52e7cae230488b2f38d14180748eeba3f3faf028516683c731d5395824d1e125",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 63
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre id devrait être final.",
+    "fingerprint": "3d4cc707a2094c63b375e746d28b4b65a55895bd5d746d8287a4ffea597a47bd",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 57
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre model devrait être final.",
+    "fingerprint": "39a7ce6d0ab30d749d97b9831b265f9aa8a57b42321109762329dcdcf7e26129",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 57
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027ProductController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027details\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "92103c6bfc8ad02fb9729f95af2c38d1719adf3a1b44d6c79c289785f5aa2fcd",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 56
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "ee37057f0cb1425cb024bf7f788b6679e170511a35e9fdff4cf1a6b03d011404",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 56
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre id devrait être final.",
+    "fingerprint": "74011952acb868958b839009287bdc02739751f275caf624faca8347b12bea53",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 47
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027ProductController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027delete\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "b964265b6f2b43e70525308c910f33d69143d16033abd7f4c2c6b714d333280b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 46
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "eb3f77051907c8ff2d045a16ac94af0aec542a4ed4c84cc17a831963cf3c642d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 46
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre product devrait être final.",
+    "fingerprint": "155e2ad67a1feb4ada101f9ddfc8b00c70b355da6b14ea88e102a286bd0e498a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 37
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027ProductController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027createPost\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "4ecdd78fec4f39c63b51a00a46894a37ffa574aea8823e932ac6218c6ea160f8",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "abc59b89854a082c208e38711ed6cc68b17bd6b0d4762b22826a7e66e2e97e49",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre model devrait être final.",
+    "fingerprint": "cccdc387fee1c91e83afe3a197232045974590741470e23b029df4171c56de76",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 31
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027ProductController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027createGet\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "7a6ef5691685432964d80964c0436251840ce7ec22420614f49e4d60f7141880",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 30
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "555db3a4f4ce842e21ad6857730cb668e886907d64eaae87d48b58717d32d012",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 30
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre model devrait être final.",
+    "fingerprint": "55bea71173072d5f522e9ce487194f573cbff82d5d058f6d3d90eef4fa10db0f",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 24
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027ProductController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027index\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "c3b30aeb3490075955dcc9ebbeb453c7c377d4b272557fcd2cd7f87da0d4ed2a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 23
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "f75cccda478685ad0543c8df4c11b35886345f6a8c2cbb929ab2a52a1271bd71",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 23
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "25a459a39900f3cc04229bd96a1c4e09c51b3b43aa44e2832eb6cff9a27d7f3c",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 20
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace avant \u0027\u003d\u0027.",
+    "fingerprint": "8611d447368b8973b765064bd864512ea84a335ba7a84b4e2e8baec198b3cb4a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "41e02581ccf2165cda241cb26bc0413be31d0e20cb2de088c86593416de80f7b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/ProductController.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027,\u0027.",
+    "fingerprint": "2adc3966eb2fe38e11ea1c809ad5a191e5a8b0916eba8fcc20250c6026e937c6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 85
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre id devrait être final.",
+    "fingerprint": "dee8182a7558649d34e643db0b5e003db7807c8105cf6381adabc1d62ed2bde7",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 79
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre model devrait être final.",
+    "fingerprint": "c0efb225baa883b70e44961a08b253645b9a47d88db459de8574e6c533b8124b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 79
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027UserController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027details\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "b302b3c41e7c725b7dcbd6d75773e1e39f7fd0496430d1a8623279b1689146e7",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 78
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "582ee6d0d3156eab63993ec5d9b8748005a13d7849ccb43c9e01941c5e586222",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 78
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre id devrait être final.",
+    "fingerprint": "aa93e998ce0a529d3fecb7ec007b8fb93193a1659923406f6d8fdacd7053e757",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 69
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027UserController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027delete\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "6b586295f465ad329b3f3f1aa6190b7d888a348e09bd7eb6fb8716b77f648f27",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 68
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "de2646506b62302dacb5bb517377bf9ad868c68b40238d5e47673177ae360651",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 68
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre user devrait être final.",
+    "fingerprint": "654157a59592d355bf311dc863277931fe314e69c8e2371a60804cfae84dfc8f",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 59
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027UserController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027createPost\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "2a8830e35abe8a18c7c63a82560c2409ef65227d4084e7bb1ccac2097e92e08a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 58
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "24dbd36cd26252187441dd943671f2bd24ebee4de60c05092bb2220ccb5a501c",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 58
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre model devrait être final.",
+    "fingerprint": "793dab1c0c1e5f855e14f6eb7aa96e62315a90c7bfd0012d9b77405c8c882204",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 53
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027UserController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027createGet\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "9699402a31578e0ecdea3b991831dea3c818c3e823ac56161390986af2ed8e51",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 52
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "32a2f4a2579d590b81dfa5b0f8233570272d7908f19a5efafbd8b44f253c7a73",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 52
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre model devrait être final.",
+    "fingerprint": "c3467001f76015ee86baba0160cbd850e994a2ca9d34a24828d62255a60f54e5",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027UserController\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027index\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "d504c1fc6985358f1b25661e8fc7dcbb639daa787696d083095b0c6ecd5289b1",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 27
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "dbc4239f58d1886aac34e9fb6305a90bd6ee282e97e3bee24c172fba28419619",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 27
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "a7221de2feeaa036c10cd1707aec856377199df092a73906e44ab53a4c93a20a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 24
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "9a2d334a88dcf5446f5d1d1e6926b9f1515f63e605c3dd1d6a0290bb9a7deaf3",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace avant \u0027\u003d\u0027.",
+    "fingerprint": "cb3f5bb232ddd4b65ed01a8a3a72a92c502e0a1d0d6c531e7a4bf99ceae9a226",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Import inutilisé - com.tactfactory.monprojetsb.monprojetsb.entities.Product.",
+    "fingerprint": "e57624eecfa013f96935aa725579096048992f675497ee7152035a902928426f",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 13
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027price\u0027 masque un attribut.",
+    "fingerprint": "a5cf1ee7fa3dff1d14b52139b8d07aad6334d15a78792acaef491d83ed2feb86",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 37
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027Product\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setPrice\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "c1ffd8dbbb66af50770b15469ed371ba58d27f7601f1531d7edfa309f257ce25",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 37
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "b0c53b492096d99642ab20c03b27175a7c81822ea433e40066cd3949690e14a6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 37
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre price devrait être final.",
+    "fingerprint": "29d129826f5d0639909c20d0d63d8cde133c0833a40e1e2f961bc6e74f40279f",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 37
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027Product\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getPrice\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "38ce8bf586acebb7e161c5c568574b5450c64259d23a341623f3a5df148d36c7",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 33
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "c82806ede8f7be61a1b93eb7db89a14bd002b04d8c54c01c7f4ddea6762ae856",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 33
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027name\u0027 masque un attribut.",
+    "fingerprint": "b12fa3f0871a1f55559dcc3aaeff64ec72cbc05d1b34c782c9de4107ee7f7979",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027Product\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setName\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "5ca094943694dc1e8c03ee89adaad2ae5c86ceba77293a01e03d112cd12b46d7",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "3fa70a62f0d091fad159dd0ed710fd40c9aa1124b937563f3ffc813ed5886243",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre name devrait être final.",
+    "fingerprint": "0c021859c9c1f30c483f445ad3726c83c894fd64b0d7e181d4cd2d25dd6e014d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027Product\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getName\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "b4723b6237f3caa162f00b0378f4ea25bceae43561c5b7d875b76fa386633828",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "cd38d148b0289bbc68147bfbff3aefa318488271b9e0443751e8e3c6519d14d1",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027id\u0027 masque un attribut.",
+    "fingerprint": "0bc85591b5dd8f301b325b82c6932fa98eea16f0a583f41ebb0f81ed55a0edff",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027Product\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setId\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "12035806fffd0bfd47ce5c61752a97f046f6faba2830358f3b28d24eed544ae6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "f7fecdc66c2ad5ba6a320a8b74a205d0be3174d895bd1123287ac05434e1416a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre id devrait être final.",
+    "fingerprint": "e1702a94003027e01eee5bfa602b0c970d4f21e7ed203e6980212e6ff5142bf2",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027Product\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getId\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "cdc192043b574a9111b50c37aa12987942b6193dd9a8af7748c188ccd5e4783d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "8427041da9c59a610d533fec41cab11b407a1147830c73e74a86e01eec889112",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "5dd81d0fc65ea1e1516feeee68bc5248429446bd58d4f4704ca7d9073731414d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "775dc13927d2f6beb5de60e282952d63ecb00cf45bd3087c8d600918b8d391dc",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 14
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "a9263c77fda119d14eb26e3dad7df13f5d10b2958d0074b211d19cd1cea59936",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 11
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "9aff3949bc9c526fdbed8779110485d17e8f7d061a577b99629b6f55ec0a9d9c",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/Product.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getProducts\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "6c8c5faf472026f0ee77cb7550d4192177e1c0f0d123b3a653107406ead68c63",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 48
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "45d01a1372d96d9524ec5a7ec0b78d72fe920e2673c45b050650344695fa1ee9",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 48
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027lastname\u0027 masque un attribut.",
+    "fingerprint": "62aea384f7da3714bcc0cf7a60b80ef7d7aa69f9b94279e2a6c089b422687a08",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 44
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setLastname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "79829145473823a255a600e100b39c8e4c2437c15e02d9caa27b2b100b24a65e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 44
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "638d3d2247c84be531d85f30cd31c043af25bed825a3aa092a3b7fb6b5d4627a",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 44
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre lastname devrait être final.",
+    "fingerprint": "18aee7bc0e33d3e1c46c21e2ef3f58d34bfaa0d7ad0cb063a84a0a2ea37fd87d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 44
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getLastname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "9b357f3518a2276aa1321676b591d18bdab63cf346a3dca3d73dd02be2f726d7",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 40
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "151699e0847be1d17406d176dd3ff1f6cf926a1e107192d9a3fe77af22450c8e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 40
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027firstname\u0027 masque un attribut.",
+    "fingerprint": "6de205e1b4b0e6e4ce01a22f1a610cfe5e1a2f8511a4e9b39d02f0c86628e571",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setFirstname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "fabb9817b3418aeae3e2aa95040617f47cd1e15f9f8e9af2516c02aebba269d0",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "b142f168ee521b1289cafd34446add8969075430d781f8cf8863c170295a5d64",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre firstname devrait être final.",
+    "fingerprint": "39ad9d8cf0d6ee9c60a2c771ea130667f5ca0ede1b59f8acbf3ea9633f1c0240",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 36
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getFirstname\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "f8d6ebcf8b58a5f087bf3bd6b0879da6aead281d065db9e7e6f1cf0e5b21c8ce",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 32
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "fb33cd56e7f700d1206026b45fb810df76f2f0c75870543938cbf286e952fad6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 32
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "\u0027id\u0027 masque un attribut.",
+    "fingerprint": "d910b9f2575d298c44a41d7378c07f3aed0a743f2518cf1f618032786f141b8b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027setId\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "fd0b1f844d40873385d83d7811ee3897bc27e9d3b08536c8d99629fcd48f40f5",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "d75bdd81eac62a7cd7806d97ade39c07a4249992a28b0b4e3e1cd6c2089bcccc",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre id devrait être final.",
+    "fingerprint": "4803d3ff01e0760bb9167a16701b6ef31ae7866ca9b606134ea05908b3b44b5b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027User\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027getId\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "bd01c31cbc5675683c927a5cee4f9bb2fe6a9c129acbf5a72e3bccd83b45f1f1",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 24
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "8198e6999425c56a43724ac50ac69a3c1bd3ae4fd36c246f44ed3f5ac1a73606",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 24
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "037233f2c6b99bdff19f48ada58651923ca15efa620bec1a3b5ba09f940dc366",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 21
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "157b4e7e28cfe3f8e6f9f05195a852eb8ffe798dc6aab4996e17de4569b8faa9",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "49beac8cf1e6aa1ce99d836c6f906f9d378b5a678e3781e90a0678d40ac00ed9",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 18
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "40746f840b52d132d22e95ef714a87661e030fa5b76973cef6eb9ee18052caae",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/entities/User.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "1f74cdb1576c11bb5acdefafaa0fbc1f0dfe034b8958e21ec61345703e3c81ad",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/repositories/ProductRepository.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier contient des caractères de tabulation (ce n\u0027est que la première occurence).",
+    "fingerprint": "2a8c3fafb0672ff078c9d7368c7657bf50bc4641efd38b1c55189fc777569ef9",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplicationTests.java",
+      "lines": {
+        "begin": 9
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "95b3d085b3ee087d8e93e6921fb15910fb93f94582794dc4bbc137419c7ec702",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplicationTests.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  }
+]

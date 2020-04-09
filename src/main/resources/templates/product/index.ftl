@@ -18,7 +18,7 @@
             <tr>
                 <td>${item.name}</td>
                 <td>${item.price}</td>
-                <td><a href="show/${item["id"]}">Show</a></td>
+                <td><a href="./${item.id}/details">Détails</a></td>
                 <td>
                     <form action="delete" method="POST">
                         <input type="hidden" name="id" value="${item["id"]}"/>

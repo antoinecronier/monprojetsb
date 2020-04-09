@@ -11,33 +11,55 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import com.tactfactory.monprojetsb.monprojetsb.entities.Product;
+import com.tactfactory.monprojetsb.monprojetsb.entities.User;
 import com.tactfactory.monprojetsb.monprojetsb.repositories.ProductRepository;
+import com.tactfactory.monprojetsb.monprojetsb.repositories.UserRepository;
 
 @Controller
-@RequestMapping(value= {"products"})
-public class ProductController {
+@RequestMapping(value= {"users"})
+public class UserController {
 
+  @Autowired
+  private UserRepository userRepository;
   @Autowired
   private ProductRepository productRepository;
 
   @RequestMapping(value = {"/index", "/"})
   public String index(Model model) {
+//    User newUser = new User();
+//    newUser.setFirstname("utilisateur");
+//    newUser.setLastname("2");
+//    Product u2P1 = new Product();
+//    u2P1.setName("p2");
+//    u2P1.setPrice(10.36F);
+//    Product u2P2 = new Product();
+//    u2P2.setName("p3");
+//    u2P2.setPrice(20.36F);
+//
+//    productRepository.saveAndFlush(u2P1);
+//    productRepository.saveAndFlush(u2P2);
+//
+//    newUser.getProducts().add(u2P1);
+//    newUser.getProducts().add(u2P2);
+//
+//    userRepository.saveAndFlush(newUser);
+
     model.addAttribute("page", "Product index");
-    model.addAttribute("items", productRepository.findAll());
-    return "product/index";
+    model.addAttribute("items", userRepository.findAll());
+    return "user/index";
   }
 
   @GetMapping(value = {"/create"})
   public String createGet(Model model) {
     model.addAttribute("page", "Product create");
-    return "product/create";
+    return "user/create";
   }
 
   @PostMapping(value = {"/create"})
-  public String createPost(@ModelAttribute Product product) {
+  public String createPost(@ModelAttribute User user) {
 
-    if (product != null) {
-      productRepository.save(product);
+    if (user != null) {
+      userRepository.save(user);
     }
 
     return "redirect:index";
@@ -47,22 +69,22 @@ public class ProductController {
   public String delete(@RequestParam Long id) {
 
     if (id != null) {
-      productRepository.deleteById(id);
+      userRepository.deleteById(id);
     }
 
-    return "redirect:/products/index";
+    return "redirect:/users/index";
   }
 
   @GetMapping(value = {"/{id}/details"})
   public String details(@PathVariable(value = "id") Long id, Model model) {
 
-    model.addAttribute("page", "Product details");
-    model.addAttribute("backlink", "/products/index");
+    model.addAttribute("page", "User details");
+    model.addAttribute("backlink", "/users/index");
 
     if (id != null) {
-      model.addAttribute("item",productRepository.findById(id).get());
+      model.addAttribute("item",userRepository.findById(id).get());
     }
 
-    return "product/details";
+    return "user/details";
   }
 }
