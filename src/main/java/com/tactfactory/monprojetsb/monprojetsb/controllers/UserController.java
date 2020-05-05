@@ -21,8 +21,8 @@ public class UserController {
 
   @Autowired
   private UserRepository userRepository;
-  @Autowired
-  private ProductRepository productRepository;
+//  @Autowired
+//  private ProductRepository productRepository;
 
   @RequestMapping(value = {"/index", "/"})
   public String index(Model model) {
