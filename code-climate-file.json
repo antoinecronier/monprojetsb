@@ -32,6 +32,102 @@
     "check_name": "PMD"
   },
   {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "ce9c63fce2ded17d3f6286e8be2efea7959ff7331e409141c3d62d3fd707015e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 13
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "08f32b3bb3f513910d9f346073152180772eeb4d415f213c487dbc1f0857a213",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/UserService.java",
+      "lines": {
+        "begin": 13
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "99acf9005f03bfbc33ea7834cacf367c28630b8ff476574ed811d6bc94a04243",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 26
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "0a56084495b352716c560c96cb5e4621f9629745a31191c760234e4711110b53",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 23
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "76382da4ede0918fd419edc51ed7b32c323e076584a75a2105b9992e13952ddd",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 26
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
+    "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.\n\n\nError Prone https://pmd.github.io/pmd-6.17.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize",
+    "fingerprint": "aac569edea07bfd9df3b3e82fc4bc32e4ef20de2626b364016928bfd74d45085",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 23
+      }
+    },
+    "severity": "minor",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "PMD"
+  },
+  {
     "description": "Commentaire Javadoc manquant.",
     "fingerprint": "d42a487775b578f989b19d61190d16a75ee69e1caeee0cb60574aa911dadb54d",
     "location": {
@@ -705,22 +801,6 @@
   },
   {
     "description": "Commentaire Javadoc manquant.",
-    "fingerprint": "a7221de2feeaa036c10cd1707aec856377199df092a73906e44ab53a4c93a20a",
-    "location": {
-      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
-      "lines": {
-        "begin": 24
-      }
-    },
-    "severity": "critical",
-    "type": "issue",
-    "categories": [
-      "Bug Risk"
-    ],
-    "check_name": "Checkstyle"
-  },
-  {
-    "description": "Commentaire Javadoc manquant.",
     "fingerprint": "9a2d334a88dcf5446f5d1d1e6926b9f1515f63e605c3dd1d6a0290bb9a7deaf3",
     "location": {
       "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
@@ -742,6 +822,22 @@
       "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
       "lines": {
         "begin": 19
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Import inutilisé - com.tactfactory.monprojetsb.monprojetsb.repositories.ProductRepository.",
+    "fingerprint": "604be631c3d879c0f53617b8c58a0c11e41ce4bb69be8cf48eaa170b15ae15a5",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/controllers/UserController.java",
+      "lines": {
+        "begin": 15
       }
     },
     "severity": "critical",
@@ -1520,12 +1616,220 @@
     "check_name": "Checkstyle"
   },
   {
-    "description": "Le fichier contient des caractères de tabulation (ce n\u0027est que la première occurence).",
-    "fingerprint": "2a8c3fafb0672ff078c9d7368c7657bf50bc4641efd38b1c55189fc777569ef9",
+    "description": "Classe \u0027ProductService\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027Save\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "2d7cc3ba386716d80e1fc71b8fbf1f9e577ba3957835297f2172ba6eea78b381",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "ca7a5288e91d25bc8bfd6b7d3fef0b28ff5dba5ef9b886f7b15dcd6a47414725",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le nom \u0027Save\u0027 n\u0027est pas conforme à l\u0027expression \u0027^[a-z][a-zA-Z0-9]*$\u0027.",
+    "fingerprint": "37811fce4762adabdf5d2328cde1cfdde79c6e46afeda5ebe8d1b60045637354",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre product devrait être final.",
+    "fingerprint": "fbb4c92bf5fd7beebe105a56c55f586ed88e598b3f2be8092bb971e62dad2a33",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "5b48dad43c6fd36df984f6f86d7f26d7a86efe1e4cbf069ff778e10ead3e1130",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le fichier package-info.java est manquant.",
+    "fingerprint": "0f0b284fedf1bb4bf0dbcf0b42e305caf441a3819a3e66a7696e23c7c905e8ea",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductService.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Classe \u0027UserService\u0027 ressemble conçu pour extension (peut être sous-), mais la méthode\u0027Save\u0027 na pas javadoc qui explique comment le faire en toute sécurité. Si la classe est pas conçue pour envisager de faire la classe \u0027{0}\u0027 finale ou de faire la méthode \u0027{1}\u0027 annotation static/final/abstract/empty, ou lajout de permis pour la méthode.",
+    "fingerprint": "ca3683050fe38afdf3f2394427e5ba8e373cbfaef301244ed2bb4f6b417ff2c6",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/UserService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "8f050e44134b9f1ffb82722489c6be71c280ffadfc7d3beab0b6bcdfc3def004",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/UserService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le nom \u0027Save\u0027 n\u0027est pas conforme à l\u0027expression \u0027^[a-z][a-zA-Z0-9]*$\u0027.",
+    "fingerprint": "75473cc89c679f5bb83ccdffa637e95965975eb47026a3a887f6d3d3063efbf0",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/UserService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le paramètre user devrait être final.",
+    "fingerprint": "bde7c26d84fe18184e8ffa03646805d8b27bca0e7bf07fb552bf7d7d97102d5b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/UserService.java",
+      "lines": {
+        "begin": 15
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "4c122fe721a793b11a24dc5f8b56f9151b37dcd9ae361af2eff9a94f3ecabc4d",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/main/java/com/tactfactory/monprojetsb/monprojetsb/services/UserService.java",
+      "lines": {
+        "begin": 12
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Import inutilisé - org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest.",
+    "fingerprint": "3fc3611774a338bb12911298be436088ded1f6411a9a0aae8eb3cb86c4b6e011",
     "location": {
       "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplicationTests.java",
       "lines": {
-        "begin": 9
+        "begin": 6
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Import inutilisé - org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace.",
+    "fingerprint": "2e6f56ee0527772eafb8d5870b7198ad68d05acee12628bd2321897fc3fd439e",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplicationTests.java",
+      "lines": {
+        "begin": 5
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Import inutilisé - org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.",
+    "fingerprint": "a16485c04efba16b71b69960637281d2a5bfa22f454ff9263a0c964939ad5457",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplicationTests.java",
+      "lines": {
+        "begin": 4
       }
     },
     "severity": "critical",
@@ -1540,6 +1844,246 @@
     "fingerprint": "95b3d085b3ee087d8e93e6921fb15910fb93f94582794dc4bbc137419c7ec702",
     "location": {
       "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/MonprojetsbApplicationTests.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le nom \u0027Test1\u0027 n\u0027est pas conforme à l\u0027expression \u0027^[a-z][a-zA-Z0-9]*$\u0027.",
+    "fingerprint": "ebd7ce2385da5cc56691afd3b3cadca144e2004c6fdd071eebed64fd7f77f5f4",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "988a2e6808e89ed5ec7a7da5ea699386085c9fcf2186408564ba97fac79c4210",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "a6212630342f98c9351f8b2c39146b1f98e788730b486c45dab1d00f1ed29b39",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "06d0a553a566bda2143e14718c98f1bb2e6232a4bb898cedcfeba675397a4890",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027\u003d\u0027.",
+    "fingerprint": "6f0df52cef7f6069736e4fc293c039f2ab7f9fb2bc1dd1b9a9b7ef5f10dcedee",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027\u003d\u0027.",
+    "fingerprint": "3814a548533ac1463d87d9a28c022e89b607ee59b7e3a01d7d8b66d4445099ee",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/ProductServiceTest.java",
+      "lines": {
+        "begin": 16
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le nom \u0027Test1\u0027 n\u0027est pas conforme à l\u0027expression \u0027^[a-z][a-zA-Z0-9]*$\u0027.",
+    "fingerprint": "8ac3ace9ae63a16ead0557f4f0b0daf3c67c4065ae164f1521488f925a5229c5",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 29
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "db4dac271c43c077f9a574fb1a2f6d992ce21fc846d64c95044babe90bdf5df2",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 28
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "63d34417b4900a534dd3231bbb33aca6f397391a7262b8a24691b5157ccdb9a5",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 25
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Commentaire Javadoc manquant.",
+    "fingerprint": "832ec5ef3fba99f5293a270cddb2151b62be988e35ed05e8cb6dedc9236702cf",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 22
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027\u003d\u0027.",
+    "fingerprint": "d43f260a7235d54494d468ba9e996f15cfd5db75585263be9969626a8e681824",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 17
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque une espace après \u0027\u003d\u0027.",
+    "fingerprint": "ba865d25c887eaaf895073144522b69ff1134a5ea72613b7efd7d30d536dc3c9",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/UserServiceTest.java",
+      "lines": {
+        "begin": 16
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Line has trailing spaces.",
+    "fingerprint": "34a801c58e0ce1040e6dec87bae9409f55d4b2b7d40b09b882f938ce9bd4eb8b",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/package-info.java",
+      "lines": {
+        "begin": 2
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Il manque un caractère NewLine à la fin du fichier.",
+    "fingerprint": "b1b7ffa08636302d97a9a36e8a14a632ad80cab64b99d849aa74f915993201f8",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/package-info.java",
+      "lines": {
+        "begin": 1
+      }
+    },
+    "severity": "critical",
+    "type": "issue",
+    "categories": [
+      "Bug Risk"
+    ],
+    "check_name": "Checkstyle"
+  },
+  {
+    "description": "Le commentaire Javadoc est placé au mauvais endroit.",
+    "fingerprint": "3a054c85336f00a31e2bc88fbdf1ee29439c5e1a3d94d741193fc797135fc8a5",
+    "location": {
+      "path": "/home/antoine.cronier/eclipse-workspace/monprojetsb/src/test/java/com/tactfactory/monprojetsb/monprojetsb/services/package-info.java",
       "lines": {
         "begin": 1
       }

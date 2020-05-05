@@ -4,19 +4,17 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.domain.EntityScan;
-import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
-import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase.Replace;
-import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.context.TestPropertySource;
 
+import com.tactfactory.monprojetsb.monprojetsb.MonprojetsbApplicationTests;
 import com.tactfactory.monprojetsb.monprojetsb.entities.User;
 import com.tactfactory.monprojetsb.monprojetsb.repositories.UserRepository;
 
-@EntityScan(basePackages ="com.tactfactory.monprojetsb")
-@ComponentScan(basePackages ="com.tactfactory.monprojetsb")
-@AutoConfigureTestDatabase(replace = Replace.NONE)
-@DataJpaTest
+@ActiveProfiles("test")
+@TestPropertySource(locations = { "classpath:application-test.properties" })
+@SpringBootTest(classes = MonprojetsbApplicationTests.class)
 public class UserServiceTest {
 
   @Autowired
