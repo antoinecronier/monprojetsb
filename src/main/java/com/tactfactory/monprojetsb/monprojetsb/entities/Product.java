@@ -14,6 +14,10 @@ public class Product {
   private String name;
   private Float price;
 
+//  @ManyToOne(fetch = FetchType.LAZY, optional = true)
+//  @JoinColumn(name = "user_id", nullable = true)
+//  private User user;
+
   public Long getId() {
     return id;
   }

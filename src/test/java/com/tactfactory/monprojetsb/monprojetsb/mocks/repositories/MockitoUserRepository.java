@@ -22,6 +22,8 @@ public class MockitoUserRepository {
 
   public Optional<User> resultOptional;
 
+  private Long count = 1L;
+
   public MockitoUserRepository(UserRepository repository) {
     this.repository = repository;
 
@@ -52,8 +54,23 @@ public class MockitoUserRepository {
       public User answer(InvocationOnMock invocation) throws Throwable {
         User user = invocation.getArgument(0);
         user.setId(1L);
-        return MockitoUserRepository.this.resultEntity;
+        MockitoUserRepository.this.count++;
+        return user;
       }
     });
+
+    Mockito.when(this.repository.count()).thenAnswer(new Answer<Long>()
+    {
+
+      @Override
+      public Long answer(InvocationOnMock invocation) throws Throwable {
+        return MockitoUserRepository.this.count;
+      }
+    });
+
+    Mockito.doAnswer((i) -> {
+      System.out.println("coucou " + i.getArgument(0));
+      return null;
+    }).when(this.repository).delete(ArgumentMatchers.any());;
   }
 }

@@ -3,10 +3,13 @@ package com.tactfactory.monprojetsb.monprojetsb.entities;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 
 @Entity
@@ -19,6 +22,7 @@ public class User {
   private String lastname;
 
   @OneToMany
+  @JoinColumn(name = "MY_FK_COL", nullable = true)
   private final List<Product> products = new ArrayList<Product>();
 
   public Long getId() {

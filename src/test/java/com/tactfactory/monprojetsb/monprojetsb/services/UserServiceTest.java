@@ -2,6 +2,9 @@ package com.tactfactory.monprojetsb.monprojetsb.services;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -33,6 +36,8 @@ public class UserServiceTest {
     final MockitoUserRepository mock = new MockitoUserRepository(this.userRepository);
     mock.intialize();
     this.entity = mock.entity;
+    List<User> users = new ArrayList<User>();
+    users.stream().anyMatch(x -> x.getId() == 1);
   }
 
   @Test
@@ -40,6 +45,7 @@ public class UserServiceTest {
     long before = userRepository.count();
     userService.Save(this.entity);
     long after = userRepository.count();
+    userRepository.delete(this.entity);
     assertEquals(before + 1, after);
   }
 }
