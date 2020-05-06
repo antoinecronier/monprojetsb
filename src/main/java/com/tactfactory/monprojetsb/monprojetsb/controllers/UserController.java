@@ -10,9 +10,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import com.tactfactory.monprojetsb.monprojetsb.entities.Product;
 import com.tactfactory.monprojetsb.monprojetsb.entities.User;
-import com.tactfactory.monprojetsb.monprojetsb.repositories.ProductRepository;
 import com.tactfactory.monprojetsb.monprojetsb.repositories.UserRepository;
 
 @Controller
