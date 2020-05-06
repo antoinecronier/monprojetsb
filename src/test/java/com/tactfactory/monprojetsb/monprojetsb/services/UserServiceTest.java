@@ -15,7 +15,9 @@ import org.springframework.test.context.TestPropertySource;
 
 import com.tactfactory.monprojetsb.monprojetsb.MonprojetsbApplicationTests;
 import com.tactfactory.monprojetsb.monprojetsb.entities.User;
+import com.tactfactory.monprojetsb.monprojetsb.mocks.repositories.MockitoProductRepository;
 import com.tactfactory.monprojetsb.monprojetsb.mocks.repositories.MockitoUserRepository;
+import com.tactfactory.monprojetsb.monprojetsb.repositories.ProductRepository;
 import com.tactfactory.monprojetsb.monprojetsb.repositories.UserRepository;
 
 @ActiveProfiles("test")
@@ -29,15 +31,19 @@ public class UserServiceTest {
   @MockBean
   private UserRepository userRepository;
 
+  @MockBean
+  private ProductRepository productRepository;
+
   private User entity;
 
   @BeforeEach
   public void setUp() throws Exception {
-    final MockitoUserRepository mock = new MockitoUserRepository(this.userRepository);
-    mock.intialize();
-    this.entity = mock.entity;
-    List<User> users = new ArrayList<User>();
-    users.stream().anyMatch(x -> x.getId() == 1);
+    final MockitoUserRepository mockUser = new MockitoUserRepository(this.userRepository);
+    mockUser.intialize();
+    this.entity = mockUser.entity;
+
+    final MockitoProductRepository mockProduct = new MockitoProductRepository(this.productRepository);
+    mockProduct.intialize();
   }
 
   @Test
@@ -46,6 +52,7 @@ public class UserServiceTest {
     userService.Save(this.entity);
     long after = userRepository.count();
     userRepository.delete(this.entity);
+    productRepository.count();
     assertEquals(before + 1, after);
   }
 }

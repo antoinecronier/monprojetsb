@@ -10,35 +10,36 @@ import org.mockito.stubbing.Answer;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.Pageable;
 
-import com.tactfactory.monprojetsb.monprojetsb.entities.User;
+import com.tactfactory.monprojetsb.monprojetsb.entities.Product;
+import com.tactfactory.monprojetsb.monprojetsb.repositories.ProductRepository;
 import com.tactfactory.monprojetsb.monprojetsb.repositories.UserRepository;
 
-public class MockitoUserRepository {
-  protected final UserRepository repository;
+public class MockitoProductRepository {
+  protected final ProductRepository repository;
 
-  public User entity;
+  public Product entity;
 
-  public User resultEntity;
+  public Product resultEntity;
 
-  public Optional<User> resultOptional;
+  public Optional<Product> resultOptional;
 
   private Long count = 1L;
 
-  public MockitoUserRepository(UserRepository repository) {
+  public MockitoProductRepository(ProductRepository repository) {
     this.repository = repository;
 
-    this.entity = new User();
-    this.entity.setFirstname("f1");
-    this.entity.setLastname("l1");
+    this.entity = new Product();
+    this.entity.setName("f1");
+    this.entity.setPrice(10F);
   }
 
   public void intialize() {
     // this.configure();
 
-    this.resultEntity = new User();
+    this.resultEntity = new Product();
     this.resultEntity.setId(this.entity.getId());
-    this.resultEntity.setFirstname(this.entity.getFirstname());
-    this.resultEntity.setLastname(this.entity.getLastname());
+    this.resultEntity.setName(this.entity.getName());
+    this.resultEntity.setPrice(this.entity.getPrice());
 
     this.resultEntity.setId(1L);
     this.resultOptional = Optional.of(this.resultEntity);
@@ -48,14 +49,14 @@ public class MockitoUserRepository {
     Mockito.when(this.repository.findAll((Pageable) ArgumentMatchers.any()))
         .thenReturn(new PageImpl<>(Arrays.asList(this.resultEntity)));
 
-    Mockito.when(this.repository.save(ArgumentMatchers.any())).thenAnswer(new Answer<User>() {
+    Mockito.when(this.repository.save(ArgumentMatchers.any())).thenAnswer(new Answer<Product>() {
 
       @Override
-      public User answer(InvocationOnMock invocation) throws Throwable {
-        User user = invocation.getArgument(0);
-        user.setId(1L);
-        MockitoUserRepository.this.count++;
-        return user;
+      public Product answer(InvocationOnMock invocation) throws Throwable {
+        Product product = invocation.getArgument(0);
+        product.setId(1L);
+        MockitoProductRepository.this.count++;
+        return product;
       }
     });
 
@@ -64,7 +65,7 @@ public class MockitoUserRepository {
 
       @Override
       public Long answer(InvocationOnMock invocation) throws Throwable {
-        return MockitoUserRepository.this.count;
+        return MockitoProductRepository.this.count;
       }
     });
 
